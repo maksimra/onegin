@@ -29,6 +29,6 @@ void          swap                    (struct Lines* onegin, int i);
 void          print_size              (size_t size);
 size_t        line_processing         (size_t size, char* buffer_stdfread);
 char**        ptr_to_lines            (size_t size, size_t line_counter, char* buffer_stdfread, enum error* Error);
-void          lines_to_struct         (struct Lines* onegin, size_t line_counter, char** lines);
+void          lines_to_struct         (struct Lines* onegin, size_t line_counter, struct Lines* onegin);
 void          printf_text             (size_t line_counter, char** lines);
 void          print_size_and_numlines (size_t size, size_t num_lines);
